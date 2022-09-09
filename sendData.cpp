@@ -16,11 +16,3 @@ bool transferDataToConsole()
     return transferSuccess;
 
 }
-
-int main()
-{
-    bool status;
-    status = transferDataToConsole();
-    cout << status << endl;
-    return 0;
-}
